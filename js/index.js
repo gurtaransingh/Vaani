@@ -4,7 +4,7 @@ listenBtn.addEventListener('click', async()=>{
 
     try{
         const text = document.getElementById('text-input').value;
-        fetch('https://d38d-112-196-126-3.ngrok-free.app/synthesize', {
+        fetch('https://a957-49-43-96-180.ngrok-free.app/synthesize', {
             method: 'POST',
             body: JSON.stringify({ text }), // Include the necessary data in the request body
             headers: {
